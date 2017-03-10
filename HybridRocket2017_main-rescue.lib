@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# LM2733_UpConvertModule-RESCUE-HybridRocket2017_main
+#
+DEF LM2733_UpConvertModule-RESCUE-HybridRocket2017_main U 0 30 Y Y 1 F N
+F0 "U" 0 325 50 H V C CNN
+F1 "LM2733_UpConvertModule-RESCUE-HybridRocket2017_main" 0 250 50 H V C CNN
+F2 "KUT_Device:LM2733_UpConvertModule" 250 -250 50 H I L CNN
+F3 "http://cds.linear.com/docs/jp/datasheet/j1963aff.pdf" 0 325 50 H I C CNN
+DRAW
+S -350 200 350 -200 0 1 10 f
+X OUT 1 450 100 100 L 50 50 1 1 w
+X GND 2 -50 -300 100 U 50 50 1 1 W
+X GND 3 50 -300 100 U 50 50 1 1 W
+X IN 4 -450 100 100 R 50 50 1 1 W
+X NC 4 0 300 100 D 50 50 1 1 N N
+X ~SHDN 5 -450 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
